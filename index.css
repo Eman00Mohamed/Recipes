@@ -547,8 +547,11 @@
         font-size: 0.5rem;
     }
     .home header .dropdown_menu.open{
-        height: 220px;
-        margin-left: -250px;
+        height: 180px;
+        margin-left: -230px;
+    }
+    .home header .dropdown_menu a{
+        font-size: 1.2rem;
     }
 
     .home header h4{
@@ -557,7 +560,7 @@
 
 
     .home .details .hero-content-grid h1{
-        margin-top: -12rem;
+        margin-top: -5rem;
         font-size: 1.5rem;
     }
 
