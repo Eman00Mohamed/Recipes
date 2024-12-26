@@ -7,7 +7,6 @@
     <link rel="icon" href="img/recipe-brown.svg">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* Color Palette */
         :root {
             --gray: #707070;
             --creamy: #e2ac7f;
@@ -35,14 +34,14 @@
             flex-direction: column;
         }
 
-        /* Background Animation */
+
         @keyframes backgroundAnimation {
             0% { background: linear-gradient(135deg, var(--creamy), var(--gray)); }
             50% { background: linear-gradient(135deg, var(--gray), var(--creamy)); }
             100% { background: linear-gradient(135deg, var(--creamy), var(--gray)); }
         }
 
-        /* Fade-in Animation */
+
         @keyframes fadeIn {
             0% { opacity: 0; transform: translateY(30px); }
             100% { opacity: 1; transform: translateY(0); }
@@ -129,7 +128,7 @@
             display: none;
         }
 
-        /* Alert Box Styling */
+
         .custom-alert {
             position: fixed;
             top: 50%;
@@ -197,9 +196,6 @@
             
             <label for="user-id">User ID</label>
             <input type="text" id="user-id" placeholder="Enter your User ID" required>
-            
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter your Password" required>
 
             <button type="submit">Submit</button>
         </form>
@@ -245,7 +241,7 @@
             } else if (alertContext === "resetContactForm") {
                 document.getElementById("feedback-form").style.display = "none";
                 document.getElementById("contact-form").style.display = "block";
-                document.getElementById("contact-form").reset();
+                window.location.href = "index.html";
             }
             alertContext = null;
         }
