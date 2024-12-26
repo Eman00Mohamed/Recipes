@@ -603,6 +603,19 @@
     }
 }
 
+
+@media (max-width: 600px){
+
+
+    .home header .toggle_btn{
+        display: block; /* Show the toggle button */
+        margin-left: 300px;
+        font-size: 1.8rem;
+        
+    }
+
+}
+
 /* Media Query for Phones (screen width: below 768px) */
 @media (max-width: 480px) {
     .home header{
