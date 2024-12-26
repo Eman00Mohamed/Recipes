@@ -98,14 +98,13 @@
 }
 .greek .main{
     border-radius: 0px 0px 15px 15px;
-
-    height:554px;
+    height:425px;
 }
 
 
 .greek .main .centered-text {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(243,213,225,0.5); /* Optional: Add a background to make the text more readable */
