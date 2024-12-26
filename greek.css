@@ -98,6 +98,7 @@
 }
 .greek .main{
     border-radius: 0px 0px 15px 15px;
+
     height:425px;
 }
 
@@ -468,6 +469,56 @@ input[type="checkbox"]:checked::after {
     .greek .container .recipes .img-box .video a{
         margin-left: -65px;
     }
+}
+
+
+@media (max-width: 615px){
+
+    .greek header .navbar {
+        padding-left: 15%; /* Reduce spacing for tablets */
+        display: none;
+    }
+
+    .greek header .toggle_btn{
+        display: block; /* Show the toggle button */
+        margin-left: 350px;
+        font-size: 1.8rem;
+        
+    }
+
+    .greek header .navbar {
+        margin-left: -10%; 
+    }
+
+
+    .greek header .dropdown_menu{
+        width: 180px;
+        font-size: 0.8rem;
+    }
+    .greek header .dropdown_menu.open{
+        height: 180px;
+        margin-left: -230px;
+    }
+    .greek header .dropdown_menu a{
+        font-size: 1.2rem;
+    }
+
+    .greek .main .centered-text {
+        margin-top: 1rem;
+    }
+
+    .greek{
+        height: 650px;
+
+    }
+
+
+    .greek .container{
+        margin-top: -220px;
+
+    }
+
+
 }
 
 @media (max-width: 480px) {
