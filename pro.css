@@ -33,7 +33,7 @@
     }
 
     #home header .navbar{
-       padding-left: 45%; 
+        padding-left: 45%;  
     }
 
     #home header .toggle_btn{
@@ -235,36 +235,30 @@
         box-shadow: 5px 5px 5px #faf3e4;
 
     } 
-    @media (max-width:768px) {
-        #home header .navbar a{
-            margin-left: 10px;  
-        }
-        #home .welcome{
-           transform: translate(-32%);
-        }
-        .video-image{
-            width: 40%;
-        }
-        .video-image img{
-            width: 70px;
-            height: 200px;
-        }
-        .ingredient{
-            width: 280px;
-        }
-        
 
-        
-    }
     @media (max-width:1024px){
         #home header .navbar a{
             padding-right: 0px;
+        }
+
+        #home header .navbar {
+            margin-left: -35%; 
+            
+        }
+        #home{
+            width: 115%;
+        }
+        #home .welcome{
+            margin-top: -8px;
         }
 
 
         
         #recipes .recipe .img{
             width: 300px;
+        }
+        #recipes {
+            width: 115%;
         }
         
         #recipes .recipe3 .img{
@@ -278,7 +272,7 @@
 
     @media (max-width: 1200px) {
         #home header .navbar {
-            margin-left: -33%; 
+            margin-left: -24%; 
             
         }
         #home header .navbar a{
@@ -315,12 +309,12 @@
             font-size: 2.5rem;
             width: 700px;
             height: 70px;
-            margin-left: 150px;
+            margin-left: 220px;
         }
     
         #home header .toggle_btn{
             display: block; 
-            margin-left: 730px;
+            margin-left: 860px;
             font-size: 1.8rem;
             
         }
@@ -329,12 +323,6 @@
             margin-top: 225px;
         }
     
-        #home header .toggle_btn{
-            display: block; 
-            margin-left: 730px;
-            font-size: 1.8rem;
-            
-        }
     }
 
     @media (max-width: 864px){
@@ -346,12 +334,12 @@
             font-size: 2.5rem;
             width: 700px;
             height: 70px;
-            margin-left: 70px;
+            margin-left: 150px;
         }
     
         #home header .toggle_btn{
             display: block; 
-            margin-left: 600px;
+            margin-left: 730px;
             font-size: 1.8rem;
             
         }
@@ -369,7 +357,7 @@
     
         #home header .toggle_btn{
             display: block; 
-            margin-left: 490px;
+            margin-left: 600px;
             font-size: 1.8rem;
             
         }
@@ -381,7 +369,8 @@
             font-size: 2.5rem;
             width: 500px;
             height: 70px;
-            margin-left: 270px;
+            margin-left: 200px;
+            margin-top: 225px;
         }
 
     }
