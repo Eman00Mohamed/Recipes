@@ -334,6 +334,9 @@
         height: 13rem; 
         
     }
+    .aboutUs{
+        margin-top: 1rem;
+    }
 
 
 
@@ -456,7 +459,7 @@
 
 
     .home .details .hero-photo-grid {
-        width: 103%; /* Adjust grid width */
+        width: 102.75%; /* Adjust grid width */
     }
 
     .home .details .hero-photo-grid-image {
@@ -579,7 +582,7 @@
     }
 
     .aboutUs{
-        margin-top: 15rem;
+        margin-top: 10rem;
     }
 
     .aboutUs .details h1 {
