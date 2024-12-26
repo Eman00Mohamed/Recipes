@@ -183,6 +183,7 @@
 
 /* AboutUs section start */
 .aboutUs{
+    margin: 20px 0px 0px 0px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-bottom: 55px;
     align-items: center;
@@ -311,7 +312,7 @@
 /* Media Query for Tablets (screen width: 768px to 1024px) */
 @media (max-width:1200px){
     .home header .navbar {
-        margin-left: -33%; /* Reduce spacing for tablets */
+        margin-left: -24%; /* Reduce spacing for tablets */
     }
 
     .home header .navbar a{
@@ -320,21 +321,21 @@
 
     .home .details .hero-content-grid {
         padding-left: 3rem;
-        padding-top: 20rem;
+        padding-top: 4rem;
+        /* margin-bottom: -100px; */
     }
 
     .home .details .hero-photo-grid {
         left: -2.5%;
-        width: 101%; /* Adjust grid width */
+        width: 102.5%; /* Adjust grid width */
     }
 
     .home .details .hero-photo-grid-image {
-        height: 17.5rem; /* Smaller images for tablets */
+        height: 13rem; 
+        
     }
 
-    .aboutUs{
-        margin-top: 38rem;
-    }
+
 
     .aboutUs .details h1 {
         font-size: 50px; /* Adjust font size */
@@ -356,20 +357,20 @@
 
     .home .details .hero-content-grid {
         padding-left: 3rem;
-        padding-top: 20rem;
+        padding-top: 4rem;
     }
 
     .home .details .hero-photo-grid {
         left: -2.5%;
-        width: 100.6%; /* Adjust grid width */
+        width: 102.5%; /* Adjust grid width */
     }
 
     .home .details .hero-photo-grid-image {
-        height: 17.75rem; /* Smaller images for tablets */
+        height: 13rem; /* Smaller images for tablets */
     }
 
     .aboutUs{
-        margin-top: 26rem;
+        margin-top: 3rem;
     }
 
     .aboutUs .details h1 {
@@ -406,7 +407,7 @@
 
     .home .details .hero-content-grid {
         padding-left: 3rem;
-        padding-top: 15rem;
+        padding-top: 4rem;
     }
 
     .home .details .hero-photo-grid {
@@ -415,11 +416,11 @@
     }
 
     .home .details .hero-photo-grid-image {
-        height: 26.65rem; /* Smaller images for tablets */
+        height: 13rem; /* Smaller images for tablets */
     }
 
     .aboutUs{
-        margin-top: 30rem;
+        margin-top: 3rem;
     }
 
     .aboutUs .details h1 {
@@ -453,12 +454,17 @@
         width: 100.2%;
     }
 
+
+    .home .details .hero-photo-grid {
+        width: 103%; /* Adjust grid width */
+    }
+
     .home .details .hero-photo-grid-image {
         height: 208.25px; 
     }
 
     .aboutUs{
-        margin-top: 30.3rem;
+        margin-top: 3rem;
         width: 100.2%;
         font-size: 1.5rem;
     }
@@ -487,7 +493,7 @@
 
     .home .details .hero-content-grid {
         padding-left: 2rem;
-        padding-top: 10rem;
+        padding-top: 3rem;
     }
 
     .home .details .hero-photo-grid {
@@ -499,7 +505,7 @@
     }
 
     .aboutUs{
-        margin-top: 35rem;
+        margin-top: 1rem;
         width: 100.2%;
     }
 
@@ -562,7 +568,7 @@
 
     .home .details .hero-photo-grid {
         left: -2.5%;
-        width: 98.5%; /* Adjust grid width */
+        width: 102.75%; /* Adjust grid width */
     }
 
     .home .details .hero-photo-grid-image {
@@ -570,7 +576,7 @@
     }
 
     .aboutUs{
-        margin-top: 5rem;
+        margin-top: 15rem;
     }
 
     .aboutUs .details h1 {
@@ -579,6 +585,10 @@
 
     .aboutUs .container .info {
         width: 20rem; /* Smaller cards */
+    }
+
+    .kitchen .container{
+        margin-left: -75px;
     }
 
     .kitchen .container .kitchens {
