@@ -377,6 +377,53 @@
 
 
 
+    @media (max-width: 615px){
+
+        #home header .navbar {
+            padding-left: 15%; /* Reduce spacing for tablets */
+            display: none;
+        }
+    
+        #home header .toggle_btn{
+            display: block; /* Show the toggle button */
+            margin-left: 440px;
+            font-size: 1.8rem;
+            
+        }
+    
+        #home header .navbar {
+            margin-left: -10%; 
+        }
+    
+    
+        #home header .dropdown_menu{
+            width: 180px;
+            font-size: 0.8rem;
+        }
+        #home header .dropdown_menu.open{
+            height: 180px;
+            margin-left: -230px;
+        }
+        #home header .dropdown_menu a{
+            font-size: 1.2rem;
+        }
+    
+        #home{
+            height: 750px;
+    
+        }
+
+        #home .welcome{
+            font-size: 2rem;
+            width: 450px;
+            height: 70px;
+            margin-left: 120px;
+            margin-top: 100px;
+        }
+    }
+
+
+
 @media (max-width: 480px) {
 
 
