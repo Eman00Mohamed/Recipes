@@ -527,6 +527,82 @@
     }
 }
 
+
+@media (max-width: 615px){
+
+    .home header .navbar {
+        padding-left: 15%; /* Reduce spacing for tablets */
+        display: none;
+    }
+
+    .home header .toggle_btn{
+        display: block; /* Show the toggle button */
+        margin-left: 360px;
+        font-size: 1.8rem;
+        
+    }
+
+    .home header .navbar {
+        margin-left: -10%; 
+    }
+
+    .home .details .hero-content-grid {
+        padding-left: 2rem;
+        padding-top: 3rem;
+        
+    }
+    .home .details .hero-content-grid h1{
+        font-size: 2rem;
+    }
+
+    .home .details .hero-content-grid p{
+        font-size: 1rem;
+    }
+
+    .home .details .hero-photo-grid {
+        left: -2.5%;
+    }
+
+    .home .details .hero-photo-grid-image {
+        height: 200px; 
+    }
+
+    .home header .dropdown_menu{
+        width: 180px;
+        font-size: 0.8rem;
+    }
+    .home header .dropdown_menu.open{
+        height: 180px;
+        margin-left: -230px;
+    }
+    .home header .dropdown_menu a{
+        font-size: 1.2rem;
+    }
+
+    .aboutUs{
+        margin-top: 14rem;
+        width: 100.2%;
+    }
+
+    .aboutUs .details h1 {
+        font-size: 50px; 
+    }
+
+    .aboutUs .container .info {
+        width: 15rem;
+    }
+
+
+
+    .kitchen .container .kitchens {
+        width: 15rem; 
+    }
+
+    .kitchen .container{
+        margin-left: -95px;
+    }
+}
+
 /* Media Query for Phones (screen width: below 768px) */
 @media (max-width: 480px) {
     .home header{
