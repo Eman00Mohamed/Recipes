@@ -34,7 +34,7 @@
 
 
 .home header .navbar{
-    padding-left: 53%;
+    padding-left: 45%;
 }
 
 .home header .toggle_btn{
@@ -149,7 +149,7 @@
   
 .home .details .hero-photo-grid-image {
     width: 100%;
-    height: 305px;
+    height: 230px;
     object-fit: cover;
 }
   
@@ -183,7 +183,6 @@
 
 /* AboutUs section start */
 .aboutUs{
-    margin: 240px 0px 0px 0px;
     background-color: rgba(0, 0, 0, 0.15);
     padding-bottom: 55px;
     align-items: center;
