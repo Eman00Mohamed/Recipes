@@ -528,7 +528,7 @@
 }
 
 
-@media (max-width: 615px){
+@media (max-width: 616px){
 
     .home header .navbar {
         padding-left: 15%; /* Reduce spacing for tablets */
@@ -580,7 +580,7 @@
     }
 
     .aboutUs{
-        margin-top: 14rem;
+        margin-top: 10rem;
         width: 100.2%;
     }
 
