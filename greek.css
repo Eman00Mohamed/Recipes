@@ -247,6 +247,7 @@ input[type="checkbox"]:checked::after {
     .greek .main .centered-text {
         font-size: 1.5rem;
         width: 63%;
+        margin-top: 250px;
     }
 
    
@@ -294,7 +295,7 @@ input[type="checkbox"]:checked::after {
 @media (max-width: 1024px) {
 
     .greek header .navbar {
-        margin-left: -43%; 
+        margin-left: -35%; 
     }
 
     .greek .main {
@@ -403,12 +404,11 @@ input[type="checkbox"]:checked::after {
         font-size: 1.8rem;
         
     }
-    .greek header{
-        width: 100.2%;
-    }
+
 
     .greek .main{
-        height: 200px;  
+        height: 200px; 
+         
    }
 }
 
@@ -525,7 +525,7 @@ input[type="checkbox"]:checked::after {
         font-size: 1rem;
         width: 105%;
         margin-left: 75px;
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
 
 
